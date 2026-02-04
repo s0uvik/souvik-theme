@@ -1,0 +1,31 @@
+{
+  "name": "souvik-theme",
+  "displayName": "Souvik Theme",
+  "description": "A custom dark theme with carefully selected backgrounds and syntax colors",
+  "version": "1.0.0",
+  "publisher": "souvik",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Souvik Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/souvik-theme.json"
+      }
+    ]
+  },
+  "keywords": [
+    "theme",
+    "dark theme",
+    "color theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/souvik-theme"
+  }
+}
