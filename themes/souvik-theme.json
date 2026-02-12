@@ -68,9 +68,16 @@
       "scope": [
         "comment",
         "punctuation.definition.comment",
-        "punctuation.definition.tag",
         "comment.block.documentation punctuation.definition.bracket",
-        "source.ocaml comment constant.regexp meta.separator",
+        "source.ocaml comment constant.regexp meta.separator"
+      ],
+      "settings": {
+        "foreground": "#64656c"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.definition.tag",
         "markup.other.anchor support.constant",
         "markup.fenced_code",
         "markup.fenced_code punctuation.definition",
@@ -582,10 +589,7 @@
       }
     },
     {
-      "scope": [
-        "invalid",
-        "invalid.illegal"
-      ],
+      "scope": ["invalid", "invalid.illegal"],
       "settings": {
         "foreground": "#E3541C"
       }
@@ -863,9 +867,7 @@
       }
     },
     {
-      "scope": [
-        "markup.strikethrough"
-      ],
+      "scope": ["markup.strikethrough"],
       "settings": {
         "fontStyle": "strikethrough"
       }
