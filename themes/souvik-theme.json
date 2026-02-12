@@ -582,6 +582,8 @@
         "source.tf meta.keyword.list",
         "source.tf meta.keyword.map",
         "entity.name.class.lua",
+        "meta.object-literal.key",
+        "variable.object.property",
         "markup.substitution"
       ],
       "settings": {
