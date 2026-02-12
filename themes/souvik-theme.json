@@ -72,7 +72,7 @@
         "source.ocaml comment constant.regexp meta.separator"
       ],
       "settings": {
-        "foreground": "#64656c"
+        "foreground": "#6d786d"
       }
     },
     {
